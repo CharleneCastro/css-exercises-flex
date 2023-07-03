@@ -99,6 +99,7 @@ button.cancel {
 
 .modal-btns {
     display: flex;
+    gap: 8px;
 }
 
 .header {
