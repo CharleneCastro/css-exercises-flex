@@ -75,7 +75,14 @@ button.cancel {
 
 /* my soln: */
 
-.modal, .modal-heading {
+.modal {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+}
+
+.modal-heading {
     display: flex;
     justify-content: space-between;
 }
