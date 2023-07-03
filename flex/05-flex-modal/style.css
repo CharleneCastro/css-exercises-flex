@@ -83,3 +83,7 @@ button.cancel {
 .icon {
     flex-shrink: 0;
 }
+
+.modal-btns {
+    display: flex;
+}
