@@ -87,3 +87,8 @@ button.cancel {
 .modal-btns {
     display: flex;
 }
+
+.header {
+    font-weight: bold;
+    font-size: 1.25em;
+}
