@@ -56,5 +56,22 @@ body {
     display: flex;
 }
 
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+    padding: 16px;
+}
+
+li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
 
 
