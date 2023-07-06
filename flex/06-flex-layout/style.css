@@ -25,3 +25,32 @@ input {
     width: 400px;
     margin-bottom: 16px;
 }
+
+
+
+/* my soln: */
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px
+}
+
+.footer {
+    background-color: #eee;
+}
+
+.left-links,.right-links {
+    display: flex;
+    gap: 12px;
+
+    /* rm bullet */
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
