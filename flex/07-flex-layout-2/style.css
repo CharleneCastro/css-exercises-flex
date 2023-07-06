@@ -32,6 +32,12 @@ body {
 
 /* my soln: */
 
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -40,6 +46,11 @@ body {
     font-weight: 900;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
