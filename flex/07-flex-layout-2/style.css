@@ -52,6 +52,9 @@ body {
     align-items: center;
 }
 
+.content {
+    display: flex;
+}
 
 
 
